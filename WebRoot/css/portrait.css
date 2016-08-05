@@ -1,0 +1,63 @@
+@charset "utf-8";
+/* CSS Document */
+.frame {
+	height: 150px;
+	width: 150px;
+	background-color: #069;
+	margin-bottom: 20px;
+	overflow: hidden;
+	border-radius: 10px;
+}
+
+.frame a {
+	height: 150px;
+	width: 150px;
+}
+
+.frame a:hover {
+	opacity: 0.7;
+}
+
+.frame_small {
+	height: 60px;
+	width: 60px;
+	border-radius: 10px;
+	margin-left: 5px;
+	margin-right: 4px;
+	margin-top: 5px;
+	float: left;
+	display: inline-block;
+	overflow: hidden;
+}
+
+.frame_small a {
+	height: 60px;
+	width: 60px;
+}
+
+.frame_small a:hover {
+	opacity: 0.7;
+}
+
+.image_large {
+	height: 150px;
+	width: 150px;
+}
+
+.image_small {
+	height: 60px;
+	width: 60px;
+}
+
+.options {
+	position: absolute;
+	left: 770px;
+	top: 20px;
+	height: 260px;
+	width: 280px;
+	background-color: #E9E9E9;
+	display: none;
+	/*margin-left:10px;
+	margin-bottom:30px;
+	*/
+}

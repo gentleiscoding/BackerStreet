@@ -1,0 +1,24 @@
+$(document).ready(function(){
+        $("#showhome").click(function(){
+          history.go(0);
+        });
+        
+        $("#showessay").click(function(){
+          $("#showessay").addClass("active");
+          $("#showgame").removeClass("active");
+          $("#showmuseum").removeClass("active");
+          $("#home").hide();
+          $("#game").hide();
+          $("#museum").hide();
+          $("#essay").show();
+        });
+        $("#showmuseum").click(function(){
+          $("#showmuseum").addClass("active");
+          $("#showgame").removeClass("active");
+          $("#showessay").removeClass("active");
+          $("#home").hide();
+          $("#game").hide();
+          $("#essay").hide();
+          $("#museum").show();
+        });
+      });
